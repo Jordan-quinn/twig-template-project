@@ -19,6 +19,11 @@ $bp-medium:$m;
 $bp-medium-large:$ml;
 $bp-large: $l;
 
+%grid24 { @include grid(24); }
+%grid12 { @include grid(12); }
+%grid8 { @include grid(8); }
+%grid6 { @include grid(6); }
+
 // Generate breakpoints using scss @content
 @mixin break($bp) {
     @media (min-width: $bp) {

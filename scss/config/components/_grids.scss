@@ -1,5 +1,5 @@
 .col {
-    @include grid(6);
+    @include grid(12);
     &.curved {
         @include curve();
     }

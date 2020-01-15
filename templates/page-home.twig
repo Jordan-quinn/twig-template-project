@@ -1,0 +1,25 @@
+{# page-home Twig template #}
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="content-block">
+        <div class="wrap">
+            <h2 class="page-title">{{ post.title }}</h2>
+            <div class="page-content">{{ post.content }}
+                <div class="container">
+                    <div class="row">
+                        <div class="col curve shadow grid-6">
+                            <h3>Column 1</h3>
+                        </div>
+                        <div class="col curve shadow grid-6">
+                            <h3>Column 2</h3>
+                        </div>
+                        <div class="col curve shadow grid-6">
+                            <h3>Column 3</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

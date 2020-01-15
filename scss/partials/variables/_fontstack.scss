@@ -1,0 +1,38 @@
+// Custom @font-face includes here
+
+// Define base font stacks
+$georgia: Georgia, Times, "Times New Roman", serif;
+$opensans: "Open Sans";
+$arial: Arial, sans-serif;
+$arial-black: "Arial Black", Arial, sans-serif;
+
+$font_primary:$opensans;
+$font_secondary:$font_primary;
+$font_tertiary:$georgia;
+
+// Base font sizing
+$base  : 14px;
+
+$xsmall-px   : 0.5em;
+$small-px    : 0.75em;
+$base-px     : $base;
+$med-px      : 1em;
+$large-px    : 1.17em;
+$xlarge-px   : 1.5em;
+$xxlarge-px  : 2em;
+
+$font-xsmall-px : $xsmall-px;
+$font-small-px  : $small-px;
+$font-base-px   : $base-px;
+$font-med-px    : $med-px;
+$font-large-px  : $large-px;
+$font-xlarge-px : $xlarge-px;
+$font-xxlarge-px: $xxlarge-px;
+
+// Heading sizes
+$h1-size:$font-xxlarge-px;
+$h2-size:$font-xlarge-px;
+$h3-size:$font-large-px;
+
+// Heights
+$line-height:normal;

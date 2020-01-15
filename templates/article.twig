@@ -1,0 +1,13 @@
+{# article Twig template #}
+{% block content %}
+    <div class="post">
+        <div class="thumbnail">
+            <img src="{{ post.thumbnail.src|resize(1200, 300) }}" alt="Attachment thumbnail of - {{ post.title }}" class="thumb" />
+        </div>
+        <div class="post-body">
+            <div class="post-content">
+                {{ post.get_content|slice(0, 50) ~ '...' }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

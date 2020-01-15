@@ -1,0 +1,50 @@
+
+// Element ripple response on button/anchor clicks
+@mixin element-ripple($bg_hover: $bg_button_hover, $rgba: $op) {
+    /* Ripple effect */
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.8s;
+    &:hover {
+        background:radial-gradient(circle, rgba(255,255,255, $rgba) 1%, $bg_hover 1%) center/15000%;
+        background-color:darken($bg_hover, 5%);
+    }
+    &:active {
+        background-size: 100%;
+        transition: background 0s;
+    }
+}
+
+// Buttons
+@mixin base-btn($base_bg:$button_bg, $base_color:$button_color, $alt_bg:$button_bg_alternate, $alt_color:$button_bg_color_alternate) {
+    background:$base_bg;
+    border: 0;
+    color: $base_color;
+    cursor:pointer;
+    display:inline-block;
+    font-size:18px;
+    font-weight: 400;
+    line-height:normal; // adjust this if we add a border at any point
+    margin-right:0;
+    padding:rhythm(0.25) rhythm(1);
+    vertical-align: bottom;
+    width:auto;
+    @include element-ripple($alt_bg, .15);
+    &:hover {
+        color: $alt_color;
+        text-decoration:none;
+    }
+
+    &:active, &:focus {
+        background-color: $alt_bg;
+        color:$alt_color;
+        box-shadow:0 0 0 0.2rem rgba($alt_color,.25);
+        outline:0;
+    }
+
+    &:visited {
+        color:$base_color;
+    }
+}
+

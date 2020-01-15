@@ -1,0 +1,155 @@
+
+// Include font-stack variables directly into the typography sass
+@import "partials/variables/fontstack";
+
+html {
+    // Set the default for kerning
+    font-kerning: normal;
+    // Don't allow the font to create sythetic bold/italic
+    font-synthesis: none;
+    // Improve kerning pairs. Caution: Webkit gets funny with this sometimes
+    text-rendering: optimizeLegibility;
+    // Improve (or in some cases screw with) safari's legibility somewhat
+    -webkit-font-smoothing: antialiased;
+
+    /**
+     * Stop iPhone/iPad from scaling text Absolute measure here, as we're
+     * talking about devices, not screen size
+     */
+    @media screen and (max-width: 769px) {
+        -webkit-text-size-adjust:none;
+    }
+}
+
+body {
+    font-family: $font_primary;
+    color:$color_text;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font_primary;
+    font-weight:normal;
+}
+
+h1 {
+    @include font-size-adjust($h1-size);
+    // 1 line below
+    margin:0 0 rhythm(1, $h1-size) 0;
+}
+
+h2 {
+    @include font-size-adjust($h2-size);
+    // 1.5 above 1 line below
+    margin: rhythm(0.75, $h2-size) 0 rhythm(0.5, $h2-size) 0;
+}
+
+h3 {
+    @include font-size-adjust($h3-size);
+    // 1 line below
+    margin: 0 0 rhythm(1, $h3-size) 0;
+}
+
+h4, h5, h6 {
+    $tmp-size: $font-med-px;
+    @include font-size-adjust($tmp-size);
+    // 1 line below
+    margin: 0 0 rhythm(1, $tmp-size) 0;
+}
+
+p {
+    $tmp-size: $font-base-px;
+    @include font-size-adjust($tmp-size * 1.25);
+
+    // 1 line below
+    margin: 0 0 rhythm(1, $tmp-size) 0;
+}
+
+small, pre, label, code, kbd, tt, var, big {
+    font-size:rhythm(0.5);
+    margin-bottom:0;
+    vertical-align:top;
+}
+
+small {
+    $tmp-size: $font-small-px;
+    @include font-size-adjust($tmp-size);
+    // 1 line below
+    margin: 0 0 rhythm(1, $tmp-size) 0;
+}
+
+ul {
+    $tmp-size: $font-base-px;
+    list-style-position: inside;
+    list-style-type: circle;
+    margin: 0 0 rhythm(1, $tmp-size) 0;
+    ul {
+        margin:0;
+    }
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0 0 rhythm(1, $font-base-px) 0;
+    ol {
+        margin:0;
+    }
+}
+
+dl {
+    margin: 0 0 rhythm(1, $font-base-px) 0;
+}
+
+dt {
+    font-weight:bold;
+}
+
+li {
+    @include font-size-adjust($font-base-px);
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i, q {
+    font-style: italic;
+}
+
+blockquote {
+    padding: 0 2em;
+    /*line-height:normal;*/
+    // 2 lines above, 2 lines below
+    margin: rhythm(2, $font-large-px) 0;
+    @include font-size-adjust($font-large-px);
+
+    p {
+        @include font-size-adjust($font-large-px, 1);
+        font-style: italic;
+    }
+}
+
+a {
+    color:$color_link;
+    cursor:pointer;
+    text-decoration:none;
+
+    &:active, &:hover {
+        color:$color_link;
+        text-decoration:none;
+    }
+    &:visited {
+        color:$color_link_visited;
+    }
+}
+
+hr {
+    border:none;
+    border-top:1px solid silver;
+}
+
+table {
+    @include table();
+}

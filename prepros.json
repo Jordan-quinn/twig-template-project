@@ -1,0 +1,1375 @@
+{
+  "id": "c362a12f",
+  "cfgVersion": 1,
+  "name": "bison - denbighshire",
+  "files": {
+    "21550217": {
+      "id": "21550217",
+      "pid": "c362a12f",
+      "name": "styles.scss",
+      "input": "assets\\tour\\css\\src\\styles.scss",
+      "customOutput": "assets\\tour\\css\\styles.css",
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "23481922": {
+      "id": "23481922",
+      "pid": "c362a12f",
+      "name": "Gruntfile.js",
+      "input": "Gruntfile.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": false,
+        "mangle": false,
+        "sourcemaps": false
+      }
+    },
+    "be5d9ac8": {
+      "id": "be5d9ac8",
+      "pid": "c362a12f",
+      "name": "olwpt_sc_mce_plugin.js",
+      "input": "com\\shortcodes\\js\\olwpt_sc_mce_plugin.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": false,
+        "mangle": false,
+        "sourcemaps": false
+      }
+    },
+    "17782a16": {
+      "id": "17782a16",
+      "pid": "c362a12f",
+      "name": "tour.js",
+      "input": "assets\\tour\\js\\src\\tour.js",
+      "customOutput": "assets\\tour\\js\\tour.min.js",
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e9877325": {
+      "id": "e9877325",
+      "pid": "c362a12f",
+      "name": "demo.js",
+      "input": "assets\\tour\\css\\src\\icomoon\\demo-files\\demo.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": false,
+        "uglify": false,
+        "mangle": false,
+        "sourcemaps": false
+      }
+    },
+    "05c00f6d": {
+      "id": "05c00f6d",
+      "pid": "c362a12f",
+      "name": "ol-wp-theme.js",
+      "input": "js\\src\\ol-wp-theme.js",
+      "customOutput": "js\\ol-wp-theme.min.js",
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": false,
+        "mangle": true,
+        "sourcemaps": true
+      }
+    },
+    "b2cdaec9": {
+      "id": "b2cdaec9",
+      "pid": "c362a12f",
+      "name": "font-awesome.less",
+      "input": "bower_components\\fontawesome\\less\\font-awesome.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": false,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "61fe82fa": {
+      "id": "61fe82fa",
+      "pid": "c362a12f",
+      "name": "print.scss",
+      "input": "scss\\print.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "5f2099e0": {
+      "id": "5f2099e0",
+      "pid": "c362a12f",
+      "name": "core.scss",
+      "input": "scss\\core.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
+    },
+    "bc4754df": {
+      "id": "bc4754df",
+      "pid": "c362a12f",
+      "name": "core-NoMQs.scss",
+      "input": "scss\\core-NoMQs.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": true,
+        "sourcemaps": true,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "compressed",
+        "autoprefixer": false
+      }
+    },
+    "99d8ff7e": {
+      "id": "99d8ff7e",
+      "pid": "c362a12f",
+      "name": "font-awesome.scss",
+      "input": "assets\\fontawesome\\scss\\font-awesome.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": false,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "61035d7c": {
+      "id": "61035d7c",
+      "pid": "c362a12f",
+      "name": "font-awesome.scss",
+      "input": "bower_components\\fontawesome\\scss\\font-awesome.scss",
+      "customOutput": false,
+      "type": "Scss",
+      "config": {
+        "autoCompile": false,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "16660726": {
+      "id": "16660726",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\core.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "36466126": {
+      "id": "36466126",
+      "pid": "c362a12f",
+      "path": "js\\vendor\\jquery.equal-height-columns.js",
+      "parents": [
+        "05c00f6d"
+      ]
+    },
+    "94806488": {
+      "id": "94806488",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_core.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "af67556e": {
+      "id": "af67556e",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\variables.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "057389ce": {
+      "id": "057389ce",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\mixins.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "472eeff8": {
+      "id": "472eeff8",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\path.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "3326df57": {
+      "id": "3326df57",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\larger.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "c94b5da4": {
+      "id": "c94b5da4",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\fixed-width.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "e49e6216": {
+      "id": "e49e6216",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\list.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "a6b00551": {
+      "id": "a6b00551",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\bordered-pulled.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "4fd19561": {
+      "id": "4fd19561",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\animated.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "d323356c": {
+      "id": "d323356c",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\rotated-flipped.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "4cbd70c2": {
+      "id": "4cbd70c2",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\stacked.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "9f46911f": {
+      "id": "9f46911f",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\less\\icons.less",
+      "parents": [
+        "b2cdaec9"
+      ]
+    },
+    "367fa857": {
+      "id": "367fa857",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_variables.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "f1c885e3": {
+      "id": "f1c885e3",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_mixins.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "c0c1e859": {
+      "id": "c0c1e859",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_path.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "8fc0df82": {
+      "id": "8fc0df82",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_larger.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "0b85850a": {
+      "id": "0b85850a",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_fixed-width.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "973036e8": {
+      "id": "973036e8",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_list.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "80927fa9": {
+      "id": "80927fa9",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_bordered-pulled.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "161f703b": {
+      "id": "161f703b",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_animated.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "2b65a840": {
+      "id": "2b65a840",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_rotated-flipped.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "328aabf8": {
+      "id": "328aabf8",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_stacked.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "3e34cbce": {
+      "id": "3e34cbce",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\_icons.scss",
+      "parents": [
+        "99d8ff7e",
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "9b60c58f": {
+      "id": "9b60c58f",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_variables.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "48947bcf": {
+      "id": "48947bcf",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_mixins.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "4018f213": {
+      "id": "4018f213",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_path.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "f7862cf8": {
+      "id": "f7862cf8",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_core.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "7b585a94": {
+      "id": "7b585a94",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_larger.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "2585d8ff": {
+      "id": "2585d8ff",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_fixed-width.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "f238bf89": {
+      "id": "f238bf89",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_list.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "43c028a3": {
+      "id": "43c028a3",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_bordered-pulled.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "2855d908": {
+      "id": "2855d908",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_animated.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "837f3ff6": {
+      "id": "837f3ff6",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_rotated-flipped.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "6584716b": {
+      "id": "6584716b",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_stacked.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "4322c5dc": {
+      "id": "4322c5dc",
+      "pid": "c362a12f",
+      "path": "bower_components\\fontawesome\\scss\\_icons.scss",
+      "parents": [
+        "61035d7c"
+      ]
+    },
+    "f931f8fc": {
+      "id": "f931f8fc",
+      "pid": "c362a12f",
+      "path": "scss\\_imports.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "99d8ff7e": {
+      "id": "99d8ff7e",
+      "pid": "c362a12f",
+      "path": "assets\\fontawesome\\scss\\font-awesome.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "fd57d466": {
+      "id": "fd57d466",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\_stolen_functions.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "a783ad90": {
+      "id": "a783ad90",
+      "pid": "c362a12f",
+      "path": "scss\\_config.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "d3578970": {
+      "id": "d3578970",
+      "pid": "c362a12f",
+      "path": "scss\\_color.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "c5185978": {
+      "id": "c5185978",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\_normalise.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "1775d0eb": {
+      "id": "1775d0eb",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\compass\\typography\\_vertical_rhythm.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "49bb2cdf": {
+      "id": "49bb2cdf",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\jquery-ui\\_jquery-ui-1.10.4.custom.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "2ec4c994": {
+      "id": "2ec4c994",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\_salsa.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "4b595d67": {
+      "id": "4b595d67",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\salsa\\_functions.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "2ae2a3f4": {
+      "id": "2ae2a3f4",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\salsa\\_settings.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "75cb4675": {
+      "id": "75cb4675",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\salsa\\_system.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "8851f5b2": {
+      "id": "8851f5b2",
+      "pid": "c362a12f",
+      "path": "scss\\vendor\\salsa\\_background.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "3d8524f3": {
+      "id": "3d8524f3",
+      "pid": "c362a12f",
+      "path": "scss\\ui_patterns\\_misc.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "7788a416": {
+      "id": "7788a416",
+      "pid": "c362a12f",
+      "path": "scss\\ui_patterns\\icons\\_icons.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "1c914420": {
+      "id": "1c914420",
+      "pid": "c362a12f",
+      "path": "scss\\ui_patterns\\nav\\_nav.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "a929b89d": {
+      "id": "a929b89d",
+      "pid": "c362a12f",
+      "path": "scss\\ui_patterns\\button\\_button.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "602bbe36": {
+      "id": "602bbe36",
+      "pid": "c362a12f",
+      "path": "scss\\ui_patterns\\media\\_media.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "3f3d10c9": {
+      "id": "3f3d10c9",
+      "pid": "c362a12f",
+      "path": "scss\\_fancy.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "59e74d80": {
+      "id": "59e74d80",
+      "pid": "c362a12f",
+      "path": "scss\\_typography.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "8df40888": {
+      "id": "8df40888",
+      "pid": "c362a12f",
+      "path": "scss\\_forms.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "959025ff": {
+      "id": "959025ff",
+      "pid": "c362a12f",
+      "path": "scss\\_layout.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "c764fba5": {
+      "id": "c764fba5",
+      "pid": "c362a12f",
+      "path": "scss\\layout\\_code.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "245ac957": {
+      "id": "245ac957",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\main\\_body.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "63d41f0a": {
+      "id": "63d41f0a",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\main\\_header.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "658105c5": {
+      "id": "658105c5",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\navigation\\_sidebar.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "cfc49789": {
+      "id": "cfc49789",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\main\\_footer.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "86e39223": {
+      "id": "86e39223",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\navigation\\_breadcrumb.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "dbe73ca1": {
+      "id": "dbe73ca1",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\navigation\\_navpanel.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "6a5d5b13": {
+      "id": "6a5d5b13",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\widget\\_widget.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "4c5101f2": {
+      "id": "4c5101f2",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\widget\\_boxes.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "d7b79aff": {
+      "id": "d7b79aff",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\navigation\\_navigation.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "61a22c13": {
+      "id": "61a22c13",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\post\\_comments.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "7b70e1e0": {
+      "id": "7b70e1e0",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\post\\_relateds.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "ba034349": {
+      "id": "ba034349",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\widget\\_feature.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "01050553": {
+      "id": "01050553",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\post\\_post.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "ad382eeb": {
+      "id": "ad382eeb",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\post\\_meta.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "8b6326eb": {
+      "id": "8b6326eb",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\pages\\_getrecord.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "8c19cafd": {
+      "id": "8c19cafd",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\pages\\_home.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "296b6ddd": {
+      "id": "296b6ddd",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\pages\\_map.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "4474901a": {
+      "id": "4474901a",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\pages\\_search.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "0e50acf9": {
+      "id": "0e50acf9",
+      "pid": "c362a12f",
+      "path": "scss\\modules\\pages\\_events.scss",
+      "parents": [
+        "bc4754df",
+        "5f2099e0"
+      ]
+    },
+    "661361a3": {
+      "id": "661361a3",
+      "pid": "c362a12f",
+      "path": "js\\vendor\\jquery-1.11.0.js",
+      "parents": [
+        "05c00f6d"
+      ]
+    },
+    "b02d5f74": {
+      "id": "b02d5f74",
+      "pid": "c362a12f",
+      "path": "js\\vendor\\jquery-migrate-1.2.1.js",
+      "parents": [
+        "05c00f6d"
+      ]
+    },
+    "91e65be2": {
+      "id": "91e65be2",
+      "pid": "c362a12f",
+      "path": "js\\vendor\\html5.js",
+      "parents": [
+        "05c00f6d"
+      ]
+    },
+    "34611ddf": {
+      "id": "34611ddf",
+      "pid": "c362a12f",
+      "path": "js\\vendor\\jquery.flexslider.js",
+      "parents": [
+        "05c00f6d"
+      ]
+    }
+  },
+  "images": {
+    "14808840": {
+      "id": "14808840",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_bbbbbb_256x240.png",
+      "size": 6991,
+      "name": "ui-icons_bbbbbb_256x240.png",
+      "type": "Png",
+      "initialSize": 6991,
+      "status": "NOT_OPTIMIZED"
+    },
+    "73486909": {
+      "id": "73486909",
+      "pid": "c362a12f",
+      "path": "img\\icons.png",
+      "size": 2473,
+      "name": "icons.png",
+      "type": "Png",
+      "initialSize": 2473,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b4070c48": {
+      "id": "b4070c48",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_aaaaaa_256x240.png",
+      "size": 6987,
+      "name": "ui-icons_aaaaaa_256x240.png",
+      "type": "Png",
+      "initialSize": 6987,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f5e4a75a": {
+      "id": "f5e4a75a",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_55_f29a00_40x100.png",
+      "size": 206,
+      "name": "ui-bg_flat_55_f29a00_40x100.png",
+      "type": "Png",
+      "initialSize": 206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "12b2851e": {
+      "id": "12b2851e",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_D26140_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_D26140_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e2940b6e": {
+      "id": "e2940b6e",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_16_EFF0F1_40x100.png",
+      "size": 206,
+      "name": "ui-bg_flat_16_EFF0F1_40x100.png",
+      "type": "Png",
+      "initialSize": 206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e0c92663": {
+      "id": "e0c92663",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_15_0F343C_40x100.png",
+      "size": 206,
+      "name": "ui-bg_flat_15_0F343C_40x100.png",
+      "type": "Png",
+      "initialSize": 206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f2863879": {
+      "id": "f2863879",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_60_dddddd_40x100.png",
+      "size": 220,
+      "name": "ui-bg_flat_60_dddddd_40x100.png",
+      "type": "Png",
+      "initialSize": 220,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3dc5c40e": {
+      "id": "3dc5c40e",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_35_D6DADD_40x100.png",
+      "size": 206,
+      "name": "ui-bg_flat_35_D6DADD_40x100.png",
+      "type": "Png",
+      "initialSize": 206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1f0dfb63": {
+      "id": "1f0dfb63",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "size": 212,
+      "name": "ui-bg_flat_0_aaaaaa_40x100.png",
+      "type": "Png",
+      "initialSize": 212,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9ff04e3e": {
+      "id": "9ff04e3e",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_cccccc_256x240.png",
+      "size": 6975,
+      "name": "ui-icons_cccccc_256x240.png",
+      "type": "Png",
+      "initialSize": 6975,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38084f24": {
+      "id": "38084f24",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_f29a00_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_f29a00_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4dd31f19": {
+      "id": "4dd31f19",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_flat_15_D26140_40x100.png",
+      "size": 206,
+      "name": "ui-bg_flat_15_D26140_40x100.png",
+      "type": "Png",
+      "initialSize": 206,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bc77a80d": {
+      "id": "bc77a80d",
+      "pid": "c362a12f",
+      "path": "screenshot.png",
+      "size": 36798,
+      "name": "screenshot.png",
+      "type": "Png",
+      "initialSize": 36798,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9ce6f0e0": {
+      "id": "9ce6f0e0",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_666666_256x240.png",
+      "size": 6988,
+      "name": "ui-icons_666666_256x240.png",
+      "type": "Png",
+      "initialSize": 6988,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cc62d203": {
+      "id": "cc62d203",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-icons_cd0a0a_256x240.png",
+      "size": 4549,
+      "name": "ui-icons_cd0a0a_256x240.png",
+      "type": "Png",
+      "initialSize": 4549,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4b895f03": {
+      "id": "4b895f03",
+      "pid": "c362a12f",
+      "path": "css\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "size": 332,
+      "name": "ui-bg_glass_95_fef1ec_1x400.png",
+      "type": "Png",
+      "initialSize": 332,
+      "status": "NOT_OPTIMIZED"
+    },
+    "acfc2c81": {
+      "id": "acfc2c81",
+      "pid": "c362a12f",
+      "path": "img\\slider-left.png",
+      "size": 1399,
+      "name": "slider-left.png",
+      "type": "Png",
+      "initialSize": 1399,
+      "status": "NOT_OPTIMIZED"
+    },
+    "88efc329": {
+      "id": "88efc329",
+      "pid": "c362a12f",
+      "path": "img\\slider-right.png",
+      "size": 1620,
+      "name": "slider-right.png",
+      "type": "Png",
+      "initialSize": 1620,
+      "status": "NOT_OPTIMIZED"
+    },
+    "46d645cc": {
+      "id": "46d645cc",
+      "pid": "c362a12f",
+      "path": "img\\logo-1.png",
+      "size": 1998,
+      "name": "logo-1.png",
+      "type": "Png",
+      "initialSize": 1998,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1164dd19": {
+      "id": "1164dd19",
+      "pid": "c362a12f",
+      "path": "img\\bg-grass.jpg",
+      "size": 4840,
+      "name": "bg-grass.jpg",
+      "type": "Jpg",
+      "initialSize": 4840,
+      "status": "NOT_OPTIMIZED"
+    },
+    "35b105dd": {
+      "id": "35b105dd",
+      "pid": "c362a12f",
+      "path": "img\\20140714-icons.png",
+      "size": 1855,
+      "name": "20140714-icons.png",
+      "type": "Png",
+      "initialSize": 1855,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cd2c8e6d": {
+      "id": "cd2c8e6d",
+      "pid": "c362a12f",
+      "path": "img\\header.jpg",
+      "size": 63113,
+      "name": "header.jpg",
+      "type": "Jpg",
+      "initialSize": 63113,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ccd10cef": {
+      "id": "ccd10cef",
+      "pid": "c362a12f",
+      "path": "img\\logo-2.png",
+      "size": 1522,
+      "name": "logo-2.png",
+      "type": "Png",
+      "initialSize": 1522,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9c728ec3": {
+      "id": "9c728ec3",
+      "pid": "c362a12f",
+      "path": "img\\sprite-socialicons.png",
+      "size": 14980,
+      "name": "sprite-socialicons.png",
+      "type": "Png",
+      "initialSize": 14980,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5b9634ab": {
+      "id": "5b9634ab",
+      "pid": "c362a12f",
+      "path": "img\\leaf.png",
+      "size": 621,
+      "name": "leaf.png",
+      "type": "Png",
+      "initialSize": 621,
+      "status": "NOT_OPTIMIZED"
+    },
+    "26cf7b78": {
+      "id": "26cf7b78",
+      "pid": "c362a12f",
+      "path": "img\\logo-3.png",
+      "size": 2552,
+      "name": "logo-3.png",
+      "type": "Png",
+      "initialSize": 2552,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d30a43ac": {
+      "id": "d30a43ac",
+      "pid": "c362a12f",
+      "path": "img\\bg-poppies.jpg",
+      "size": 13440,
+      "name": "bg-poppies.jpg",
+      "type": "Jpg",
+      "initialSize": 13440,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2a64bce6": {
+      "id": "2a64bce6",
+      "pid": "c362a12f",
+      "path": "img\\footer_logos.png",
+      "size": 26376,
+      "name": "footer_logos.png",
+      "type": "Png",
+      "initialSize": 26376,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fd7675f3": {
+      "id": "fd7675f3",
+      "pid": "c362a12f",
+      "path": "img\\logo.png",
+      "size": 4136,
+      "name": "logo.png",
+      "type": "Png",
+      "initialSize": 4136,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7d48b5c2": {
+      "id": "7d48b5c2",
+      "pid": "c362a12f",
+      "path": "img\\footer.png",
+      "size": 55735,
+      "name": "footer.png",
+      "type": "Png",
+      "initialSize": 55735,
+      "status": "NOT_OPTIMIZED"
+    },
+    "24d2e2cc": {
+      "id": "24d2e2cc",
+      "pid": "c362a12f",
+      "path": "img\\thumbnail_brackets_about.jpg",
+      "size": 32257,
+      "name": "thumbnail_brackets_about.jpg",
+      "type": "Jpg",
+      "initialSize": 32257,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7c6d6b00": {
+      "id": "7c6d6b00",
+      "pid": "c362a12f",
+      "path": "img\\logo_eht.png",
+      "size": 11235,
+      "name": "logo_eht.png",
+      "type": "Png",
+      "initialSize": 11235,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4f2f352f": {
+      "id": "4f2f352f",
+      "pid": "c362a12f",
+      "path": "img\\expander.png",
+      "size": 348,
+      "name": "expander.png",
+      "type": "Png",
+      "initialSize": 348,
+      "status": "NOT_OPTIMIZED"
+    },
+    "29da6579": {
+      "id": "29da6579",
+      "pid": "c362a12f",
+      "path": "img\\g3875.png",
+      "size": 913,
+      "name": "g3875.png",
+      "type": "Png",
+      "initialSize": 913,
+      "status": "NOT_OPTIMIZED"
+    },
+    "45783b22": {
+      "id": "45783b22",
+      "pid": "c362a12f",
+      "path": "img\\header-old.jpg",
+      "size": 213497,
+      "name": "header-old.jpg",
+      "type": "Jpg",
+      "initialSize": 213497,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38888e6f": {
+      "id": "38888e6f",
+      "pid": "c362a12f",
+      "path": "img\\logo_hlf.png",
+      "size": 9052,
+      "name": "logo_hlf.png",
+      "type": "Png",
+      "initialSize": 9052,
+      "status": "NOT_OPTIMIZED"
+    },
+    "543c4a57": {
+      "id": "543c4a57",
+      "pid": "c362a12f",
+      "path": "img\\default-thumb.png",
+      "size": 16526,
+      "name": "default-thumb.png",
+      "type": "Png",
+      "initialSize": 16526,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8b0ca725": {
+      "id": "8b0ca725",
+      "pid": "c362a12f",
+      "path": "img\\logo-old.png",
+      "size": 18411,
+      "name": "logo-old.png",
+      "type": "Png",
+      "initialSize": 18411,
+      "status": "NOT_OPTIMIZED"
+    },
+    "36cfdfc6": {
+      "id": "36cfdfc6",
+      "pid": "c362a12f",
+      "path": "img\\bg-header.png",
+      "size": 8008,
+      "name": "bg-header.png",
+      "type": "Png",
+      "initialSize": 8008,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": false,
+    "liveRefresh": false,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

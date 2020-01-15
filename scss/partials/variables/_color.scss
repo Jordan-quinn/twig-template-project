@@ -1,0 +1,27 @@
+// Default pallette
+$color_primary: #363636!default;
+$color_secondary: #17a2b8!default;
+$color_tertiary: #ccc!default;
+
+// Custom branding colours
+
+// Core backgound usage
+$bg: #111;
+$bg_body: #f0f0f0;
+$bg_body_dark: darken($bg_body, 10%);
+$bg_button: $color_primary;
+$bg_button_hover: $color_secondary;
+
+// Buttons
+$button_bg: #d2232a;
+$button_color: #fff;
+$button_bg_alternate: #333;
+$button_bg_color_alternate: $button_color;
+
+// Set standard body variables
+$color_link: $color_secondary;
+$color_link_hover: $color_primary;
+$color_link_text: red;
+$color_link_visited: red;
+$color_link_text_hover: orange;
+$color_text:#333;

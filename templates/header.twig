@@ -1,0 +1,42 @@
+{# header Twig template #}
+<!doctype html>
+
+<!--[if lt IE 9]><html class="no-js no-svg ie lt-ie9 lt-ie8 lt-ie7" {{ site.language_attributes }}> <![endif]-->
+<!--[if IE 9]><html class="no-js no-svg ie ie9 lt-ie9 lt-ie8" {{ site.language_attributes }}> <![endif]-->
+<!--[if gt IE 9]><!-->
+
+<html {{ site.language_attributes }}>
+    
+    <!--<![endif]-->
+    {% block head %}
+    <head>
+        <meta charset="{{ site.charset }}" />
+        <meta name="description" content="{{ site.description }}">
+        <link rel="stylesheet" href="{{ site_css_path }}" type="text/css" media="screen" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{function('wp_head')}}
+    </head>
+    {% endblock %}
+    <body class="{{body_class}} {{ sidebar_enabled }}" data-template="base.twig">
+        <a class="skip-link" href="#content">Skip to content</a>
+        <header id="header">
+            <div class="wrap">
+                <div class="main-navigation">
+                    {% include 'navigation.twig' with {'items': menu.get_items} %}
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                            <span>Sidebar</span>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="site-brand">
+                    <h1 class="site-title">{{ site_title }}</h1>
+                    <h2 class="strapline">{{ site_strapline }}</h2>
+                </div>
+            </div>
+        </header>

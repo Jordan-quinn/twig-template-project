@@ -1,0 +1,26 @@
+
+// External libraries included in build
+@import "includes/salsa/salsa"; // Grid layout system
+
+// Site Configurations
+@import "partials/mixins";
+@import "partials/variables/color";
+@import "partials/variables/fontstack";
+
+// Core configuration components
+@import "config/core/accessibility";
+@import "config/core/breakpoints";
+@import "config/core/layout";
+@import "config/core/typography";
+
+// Modules
+@import "modules/buttons";
+@import "modules/forms";
+
+// Base styles for main site sections
+@import "config/base/base";
+@import "config/base/header";
+@import "config/base/footer";
+
+@import "config/components/widgets";
+@import "config/components/grids";

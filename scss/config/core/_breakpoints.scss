@@ -1,0 +1,27 @@
+
+// Grid
+$wrap-max-width: 1280px;
+$wrap-min-width: 320px;
+$wrap-width: 100%;
+$desktop-wrap-width: 92%;
+$base-line-height: 24px;
+
+// Break point calculations
+$xs:475px;
+$s:768px;
+$m:1024px;
+$ml:1204px;
+$l:$wrap-max-width;
+
+$bp-xsmall:$xs;
+$bp-small:$s;
+$bp-medium:$m;
+$bp-medium-large:$ml;
+$bp-large: $l;
+
+// Generate breakpoints using scss @content
+@mixin break($bp) {
+    @media (min-width: $bp) {
+        @content;
+    }
+}

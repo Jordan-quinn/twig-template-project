@@ -1,0 +1,11 @@
+{# page Twig template #}
+{% extends "base.twig" %}
+
+{% block content %}
+    <div class="content-block">
+        <div class="wrap">
+            <h2 class="page-title">{{ post.title }}</h2>
+            <div class="page-content">{{ post.content }}</div>
+        </div>
+    </div>
+{% endblock %}

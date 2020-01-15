@@ -1,0 +1,20 @@
+
+// Set widths of containers
+@mixin set-widths($max:$wrap-max-width, $min:$wrap-min-width, $width:$desktop-wrap-width) {
+    margin:0 auto;
+    max-width:$max;
+    min-width:$min;
+    width:$width;
+}
+
+// Add margin to x axis
+@mixin spacing-x($spacing, $size:0.5) {
+    margin-left: ($size * $spacing);
+    margin-right: ($size * $spacing);
+}
+
+// Add margin to y axis
+@mixin spacing-y($spacing, $size:0.5) {
+    margin-bottom: ($size * $spacing);
+    margin-top: ($size * $spacing);
+}

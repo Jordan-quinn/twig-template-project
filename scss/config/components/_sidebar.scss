@@ -1,0 +1,24 @@
+// Core Sidebar styles
+.sb {
+    @include box-shadow();
+    display:inline-block;
+    float:right;
+    height:100%;
+    width:25%;
+
+    .sb-container {
+
+    }
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: $bg_body;
+    color: $color_text;
+    margin:0;
+    padding:0;
+    
+    .wrapper {
+        @include set-widths();
+    }
+}
+
+button, a, li, input, select {
+    @include transition(0.2s);
+}
+
+.post-title {
+    @include post-title($h2-size);
+}
+
+.wrap {
+    @include set-widths();
+}

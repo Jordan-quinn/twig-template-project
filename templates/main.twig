@@ -1,0 +1,8 @@
+{# main Twig template #}
+<section>
+    <div class="wrap">
+        <h2 class="page-title">{{ post.post_title }}</h2>
+        {{ post.get_content }}
+        {% include 'admin.twig' %}
+    </div>
+</section>

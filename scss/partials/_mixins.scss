@@ -1,0 +1,81 @@
+// Generate border
+@mixin border($direction, $size, $style, $color) {
+    border-#{$direction}:$size solid $color;
+}
+
+// Insert faint shadow around border of div
+@mixin box-shadow($bg: #fff, $shadow: rgba(0,0,0,0.1)) {
+    background-color:$bg;
+    border:0;
+    box-shadow:0 0 5px $shadow;
+    z-index:1;
+}
+
+// Set border radius to element
+@mixin curve($default:4px) {
+    border-radius:$default;
+}
+
+// Adjust font sizing
+@mixin font-size-adjust($value: 1.6, $size:1.25) {
+  font-size: ($value * $size) + px;
+  font-size: $value + rem;
+}
+
+// Standard post result item
+@mixin post-result-item() {
+    @include box-shadow();
+}
+
+// Post result item in gallery format
+@mixin post-result-gallery-item() {
+
+    // Extend grid from salsa lib
+    @extend .grid-8;
+    @include box-shadow();
+}
+
+// Post result for events item
+@mixin post-result-events-item() {
+    @include box-shadow();
+}
+
+// Post title styles ( use for page/post titles and sub-headings )
+@mixin post-title($size) {
+    font-size:$size;
+    font-weight:600;
+    margin-top:rhythm(0.25);
+}
+
+// Generic table styling
+@mixin table($bg_head:$color_primary, $bg:transparent, $bg_odd:$bg_body, $w: 24) {
+    @include grid($w);
+    box-shadow:0px 0px 2px #ccc;
+    padding-left:0;
+    padding-right:0;
+    th {
+        background-color:$bg_head;
+        color:#fff;
+        font-weight:600;
+        padding:12px 0;
+        text-align:left;
+    }
+    tr {
+        background-color:$bg;
+        &:nth-child(odd) {
+            background-color:$bg_odd;
+        }
+    }
+    td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+}
+
+// Transitions
+@mixin transition($speed) {
+    transition:color $speed ease, background-color $speed ease, border-color $speed ease;
+    &:after {
+        transition:color $speed ease, background-color $speed ease, border-color $speed ease;
+    }
+}

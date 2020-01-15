@@ -1,0 +1,6 @@
+$MQs: true;       // Turning off MQ's (media queries) will produce an lteIE8 specific stylesheet
+
+/* Note: Moved imports to _imports.scss, now we can forget about duplicating
+ * imports across two seperate files (core.scss and core-NoMQs.scss)
+ */
+@import "imports";

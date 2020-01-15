@@ -1,0 +1,14 @@
+.col {
+    @include grid(6);
+    &.curved {
+        @include curve();
+    }
+    
+    &.shadow {
+        @include box-shadow();
+    }
+}
+
+.row {
+    display:inline-block;
+}

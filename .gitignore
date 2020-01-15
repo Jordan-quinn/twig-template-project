@@ -1,0 +1,6 @@
+.sass-cache/
+vendor/
+vendor-publish/
+css/
+js/ol-wp-theme.min.js
+js/ol-wp-theme.min.js.map

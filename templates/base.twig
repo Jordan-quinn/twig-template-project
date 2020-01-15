@@ -1,0 +1,16 @@
+{# base Twig template #}
+<main id="content" role="main">
+    <section class="content-wrapper" role="main">
+        {% if title %}
+            <h1 class="page-title">{{title}}</h1>
+        {% endif %}
+        <div class="wrapper {{sidebar_class}}">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+        {% if sidebar %}
+            {% include 'sidebar.twig' %}
+        {% endif %}
+    </section>
+</main>

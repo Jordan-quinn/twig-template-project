@@ -1,0 +1,22 @@
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://via.placeholder.com/2500x1000");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    position:relative;
+}
+
+.banner-text {
+    color:#fff;
+    left:50%;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.banner-text button {
+    @include base-btn();
+}
